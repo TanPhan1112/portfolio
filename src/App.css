@@ -1,17 +1,51 @@
 /* Reset margin to zero for all heading levels (h1 to h5) and paragraphs (p) */
-h1, h2, h3, h4, h5, p {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
 }
 
 /* Ensure padding and border are included in the element's total width and height */
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 :root {
-    /* Define the primary color */
-    --primary-color: #eff0ae;
-    --light-shades: #b1d175;
-    --dark-accent: #473b40;
-    --dark-shades: #775351;
+  --page-padding: 1.2rem 10rem;
+  --gap: 1rem;
+  /* Define the primary color */
+  --primary-color: #eff0ae;
+  --light-shades: #b1d175;
+  --dark-accent: #473b40;
+  --dark-shades: #775351;
+  /* Define CSS variables for consistent theming */
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --page-padding: 1.2rem 2rem;
+  }
+  .navbar-container {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+  .navbar-links-container {
+    flex-direction: column;
+  }
+  @keyframes rotateMenu {
+    0% {
+      transform: translateY(-100%);
+    }
+    70% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 }

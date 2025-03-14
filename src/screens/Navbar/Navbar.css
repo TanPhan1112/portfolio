@@ -1,0 +1,38 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--page-padding);
+  background-color: var(--primary-color);
+  color: var(--dark-accent);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-links-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links-container a {
+  color: var(--dark-accent);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  animation: rotateMenu 0.5s ease-in-out;
+}
+
+.navbar-links-container a:hover {
+  color: var(--dark-shades);
+  transform: translateY(-5px);
+}
+
+.navbar-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-name {
+  display: flex;
+  justify-content: space-between;
+}
