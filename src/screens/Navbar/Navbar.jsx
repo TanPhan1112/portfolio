@@ -9,7 +9,7 @@ function Navbar() {
 
   const handleClick = () => {
     setShowLinks(!showLinks);
-  }
+  };
 
   useEffect(() => {
     const handleResize = () => {
