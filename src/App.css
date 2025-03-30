@@ -18,6 +18,8 @@ p {
 :root {
   --page-padding: 1.2rem 10rem;
   --gap: 1rem;
+  --padding: 1.2rem;
+  --border-radius: 5px;
   /* Define the primary color */
   --primary-color: #eff0ae;
   --light-shades: #b1d175;
