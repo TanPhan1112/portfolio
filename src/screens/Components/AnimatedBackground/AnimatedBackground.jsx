@@ -35,47 +35,47 @@ function AnimatedBackground({ children }) {
       <div className="animated-row" key={i}>
         <div>
           <Battery />
-          <Bike />
+          {/* <Bike /> */}
           <Cloud />
           <Code />
           <Coffee />
-          <Flask />
+          {/* <Flask /> */}
           <Game />
           <Git />
           <Heart />
-          <Home />
+          {/* <Home /> */}
           <Html />
           <Js />
           <Keyboard />
-          <Mic />
+          {/* <Mic /> */}
           <Paper />
           <ReactSVG />
           <Sql />
           <Time />
           <Web />
-          <Weight />
+          {/* <Weight /> */}
         </div>
         <div>
           <Battery />
-          <Bike />
+          {/* <Bike /> */}
           <Cloud />
           <Code />
           <Coffee />
-          <Flask />
+          {/* <Flask /> */}
           <Game />
           <Git />
           <Heart />
-          <Home />
+          {/* <Home /> */}
           <Html />
           <Js />
           <Keyboard />
-          <Mic />
+          {/* <Mic /> */}
           <Paper />
           <ReactSVG />
           <Sql />
           <Time />
           <Web />
-          <Weight />
+          {/* <Weight /> */}
         </div>
       </div>
     );
