@@ -1,11 +1,12 @@
 import './App.css';
-import { Landing, Navbar } from './screens';
+import { Landing, Navbar, AboutMe } from './screens';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Landing />
+      <AboutMe />
     </div>
   );
 }

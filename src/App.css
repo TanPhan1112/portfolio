@@ -17,7 +17,7 @@ p {
 
 :root {
   --page-padding: 1.2rem 10rem;
-  --gap: 1rem;
+  --gap: 1.5rem;
   --padding: 1.2rem;
   --border-radius: 5px;
   /* Define the primary color */
@@ -26,6 +26,10 @@ p {
   --dark-accent: #473b40;
   --dark-shades: #775351;
   /* Define CSS variables for consistent theming */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,6 +42,10 @@ p {
   }
   .navbar-links-container {
     flex-direction: column;
+  }
+  .aboutme-container {
+    flex-direction: column;
+    gap: var(--gap);
   }
   @keyframes rotateMenu {
     0% {
