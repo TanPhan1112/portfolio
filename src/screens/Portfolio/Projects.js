@@ -28,4 +28,9 @@ export const Projects = [{
     description: "Description for Project 6",
     image: "path/to/image6.jpg",
     link: "https://project6.com111"
+}, {
+    title: "Project 7",
+    description: "Description for Project 7",
+    image: "path/to/image7.jpg",
+    link: "https://project7.com"
 }];
