@@ -33,12 +33,10 @@ html {
 }
 
 .background-animation {
-  background: linear-gradient(
-    -45deg,
-    var(--light-shades),
-    var(--dark-shades),
-    var(--dark-accent)
-  );
+  background: linear-gradient(-45deg,
+      var(--light-shades),
+      var(--dark-shades),
+      var(--dark-accent));
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
 }
@@ -47,9 +45,11 @@ html {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -59,24 +59,30 @@ html {
   :root {
     --page-padding: 1.2rem 2rem;
   }
+
   .navbar-container {
     flex-direction: column;
     gap: var(--gap);
   }
+
   .navbar-links-container {
     flex-direction: column;
   }
+
   .aboutme-container {
     flex-direction: column;
     gap: var(--gap);
   }
+
   @keyframes rotateMenu {
     0% {
       transform: translateY(-100%);
     }
+
     70% {
       transform: translateY(20%);
     }
+
     100% {
       transform: translateY(0);
     }

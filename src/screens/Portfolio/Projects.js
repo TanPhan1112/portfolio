@@ -1,0 +1,31 @@
+export const Projects = [{
+    title: "Project 1",
+    description: "Description for Project 1",
+    image: "path/to/image1.jpg",
+    link: "https://project1.com"
+}, {
+    title: "Project 2",
+    description: "Description for Project 2",
+    image: "path/to/image2.jpg",
+    link: "https://project2.com"
+}, {
+    title: "Project 3",
+    description: "Description for Project 3",
+    image: "path/to/image3.jpg",
+    link: "https://project3.com"
+}, {
+    title: "Project 4",
+    description: "Description for Project 4",
+    image: "path/to/image4.jpg",
+    link: "https://project4.com"
+}, {
+    title: "Project 5",
+    description: "Description for Project 5",
+    image: "path/to/image5.jpg",
+    link: "https://project5.com"
+}, {
+    title: "Project 6",
+    description: "Description for Project 6",
+    image: "path/to/image6.jpg",
+    link: "https://project6.com111"
+}];

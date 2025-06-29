@@ -1,5 +1,5 @@
 import './App.css';
-import { Landing, Navbar, AboutMe, Technologies } from './screens';
+import { Landing, Navbar, AboutMe, Technologies, Portfolio } from './screens';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Landing />
       <AboutMe />
       <Technologies />
+      <Portfolio />
     </div>
   );
 }
