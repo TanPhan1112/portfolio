@@ -6,7 +6,7 @@ import Typewritter from "../Components/Typewritter/Typewritter";
 let msgArray = [
   " ",
   "Hello, I'm Tan.",
-  "I'm a software engineer.",
+  "I'm a Web Developer.",
   "Also known as a",
   "Frontend developer.",
   "Backend developer.",
