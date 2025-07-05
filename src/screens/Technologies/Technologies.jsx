@@ -17,7 +17,6 @@ function Technologies() {
       <h1>Some of the Technologies I work with</h1>
       <div className="tech-list-container">
         {techList}
-        {techList}
       </div>
       <h3>And more...</h3>
     </div>
