@@ -17,4 +17,9 @@ export const Projects = [{
     description: "Dog Library (Frontend)",
     image: doglibrary,
     link: "https://goodogs.netlify.app/"
+}, {
+    title: "Project 4",
+    description: "Coming soon...",
+    image: "",
+    link: ""
 }];
