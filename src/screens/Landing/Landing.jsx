@@ -10,7 +10,7 @@ let msgArray = [
   "Also known as a",
   "Frontend developer.",
   "Backend developer.",
-  "Fullstack developer.",
+  "Full-stack developer.",
   "I love coding.",
   "Welcome to my portfolio!",
   " ",

@@ -74,6 +74,11 @@ html {
     gap: var(--gap);
   }
 
+  .contact-container {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+
   @keyframes rotateMenu {
     0% {
       transform: translateY(-100%);

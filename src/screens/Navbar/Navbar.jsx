@@ -40,7 +40,7 @@ function Navbar() {
       </div>
       {showLinks && (
         <div className="navbar-links-container">
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
           <a href="#aboutme">About Me</a>
           <a href="#technologies">Technologies</a>
           <a href="#portfolio">Portfolio</a>
