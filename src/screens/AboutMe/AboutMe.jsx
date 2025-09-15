@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import myCV from "./Duc_Minh_Tan_Phan_cv.pdf";
 
 let image = "https://picsum.photos/800";
 
@@ -24,6 +25,14 @@ function AboutMe() {
           In my free time, I enjoy playing video games and spending time with my
           family and friends.
         </p>
+        <h2>View/Download my CV below</h2>
+        <iframe
+          src={myCV}
+          width="100%"
+          height="300px"
+          title="My Resume"
+          style={{ border: "none", marginTop: "2rem" }}
+        ></iframe>
       </div>
     </div>
   );

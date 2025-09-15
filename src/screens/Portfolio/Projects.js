@@ -19,7 +19,7 @@ export const Projects = [{
     link: "https://goodogs.netlify.app/"
 }, {
     title: "Project 4",
-    description: "Coming soon...",
+    description: "Tour Travel Website is coming soon...",
     image: "",
     link: ""
 }];
