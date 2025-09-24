@@ -1,6 +1,7 @@
 import onlineShopping from './Images/onlineshopping.png';
-import birsdgame from './Images/birdsgame.png';
-import doglibrary from './Images/doglibrary.png';
+import birdsGame from './Images/birdsgame.png';
+import dogLibrary from './Images/doglibrary.png';
+import travelBooking from './Images/travelbooking.png'
 
 export const Projects = [{
     title: "Project 1",
@@ -10,16 +11,16 @@ export const Projects = [{
 }, {
     title: "Project 2",
     description: "Minigame (Frontend)",
-    image: birsdgame,
+    image: birdsGame,
     link: "https://birdsinvasiongame.netlify.app/"
 }, {
     title: "Project 3",
     description: "Dog Library (Frontend)",
-    image: doglibrary,
+    image: dogLibrary,
     link: "https://goodogs.netlify.app/"
 }, {
     title: "Project 4",
     description: "Tour Travel Website is coming soon...",
-    image: "",
+    image: travelBooking,
     link: ""
 }];
