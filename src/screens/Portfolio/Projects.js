@@ -20,7 +20,12 @@ export const Projects = [{
     link: "https://goodogs.netlify.app/"
 }, {
     title: "Project 4",
-    description: "Tour Travel Website is coming soon...",
+    description: "Tour Travel Booking Website (Full-Stack)",
     image: travelBooking,
-    link: ""
+    link: "https://travelingbooking.netlify.app/"
+}, {
+    title: "Project 5",
+    description: "Coming soon...",
+    image: "",
+    link: "#"
 }];
