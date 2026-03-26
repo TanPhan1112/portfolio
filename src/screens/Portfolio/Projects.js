@@ -2,6 +2,7 @@ import onlineShopping from './Images/onlineshopping.png';
 import birdsGame from './Images/birdsgame.png';
 import dogLibrary from './Images/doglibrary.png';
 import travelBooking from './Images/travelbooking.png'
+import fitec from './Images/fitec.png';
 
 export const Projects = [{
     title: "Project 1",
@@ -20,12 +21,12 @@ export const Projects = [{
     link: "https://goodogs.netlify.app/"
 }, {
     title: "Project 4",
-    description: "Tour Travel Booking Website (Full-Stack)",
+    description: "Tour Travel Booking Website (Full-Stack). Please wait about 2 minutes for the server to wake up.",
     image: travelBooking,
-    link: "https://travelingbooking.netlify.app/"
+    link: "https://travelingbookingwebsite.minhtan.workers.dev/"
 }, {
     title: "Project 5",
-    description: "Coming soon...",
-    image: "",
-    link: "#"
+    description: "Fitec (Full-Stack)",
+    image: fitec,
+    link: "https://fitec.minhtan.workers.dev/"
 }];
